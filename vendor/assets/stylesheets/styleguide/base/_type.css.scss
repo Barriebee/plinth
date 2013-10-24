@@ -46,7 +46,7 @@ body {
 // ========================================================================== 
 
 a {
-  border-bottom: 1px solid mono(4);
+  border-bottom: 1px solid $txt-color;
   text-decoration: none;
   color: $txt-color;
 }
@@ -64,9 +64,9 @@ a:active,
 a.is-active,
 .is-active > a,
 a:hover {
-  border-color: mono(3);
+  border-color: $main-color-hover;
   outline: 0;
-  color: mono(1);
+  color: $main-color-hover;
 }
 
 a.prominent {
@@ -77,8 +77,8 @@ a.prominent {
   &:active,
   &.is-active,
   &:hover {
-    border-bottom: 1px solid mono(3);
-    color: mono(1);
+    border-bottom: 1px solid $main-color-hover;
+    color: $main-color-hover;
   }
 }
 
